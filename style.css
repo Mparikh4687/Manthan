@@ -1,0 +1,235 @@
+*
+{
+    box-sizing: border-box;
+    
+}
+
+body
+{
+    background-image: url("https://images.unsplash.com/photo-1516038858785-1cf85ef58b0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+body
+{
+    font-family: Segoe UI, Roboto, "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    color: #555;
+    overflow-y: hidden;
+}
+.nav-bar
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba( 64, 144, 172, 0.60);
+    height: 3.3em;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+    
+.nav-bar .menu
+{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+.nav-bar .menu .icon
+{
+   
+    margin-right: 10px;
+    background-color: rgba( 64, 144, 172, 1 );
+    border-radius: 2px;
+    padding: 6.5px;
+    width: max-content;
+    align-self: center;
+}
+.nav-bar .icon:hover
+{
+   opacity: 0.75;
+   cursor: pointer;
+}
+
+.nav-bar .menu .search
+{
+    background-color: transparent;
+    align-self: center;
+}
+.nav-bar input
+{
+    background-color: rgba( 64, 144, 172, 1 );
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+.nav-bar input:focus
+{
+    background-color: white;
+}
+.nav-bar .name
+{
+    padding: 15px;
+    margin-right: 5em;
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+.nav-bar .right-icon 
+{ 
+   
+    justify-content: flex-end;
+    padding: 15px 10px;
+    margin-right: 1em;
+}
+.nav-bar .right-icon .icon
+{
+    margin: 0 8px;
+    background-color: rgba( 64, 144, 172, 1 );
+    width: max-content;
+    border-radius: 2px;
+    padding: 7px;
+    align-self: center;
+}
+
+.nav-bar1
+{
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgba( 128, 128, 128, 0.5 );
+    top: 46px;
+    right: 0;
+    left: 0;
+    position: fixed;
+    height: 1.2em;
+    
+}
+.nav-bar1 .title
+{
+    justify-content: flex-start;
+    align-self: center;
+    margin-left: 10px;
+    font-size: 1em;
+}
+.nav-bar1 .show-menu 
+{
+    justify-content: flex-end;
+    margin-left: 10px;
+    align-self: center;
+}
+.nav-bar1 .show-menu:hover
+{
+    opacity: 0.75;
+    cursor: pointer;
+}
+.flex-container
+{
+    position: absolute;
+    align-self:flex-start;
+    display:flex;
+    top: 90px;
+    left: 20px;
+    flex-wrap: nowrap;
+    overflow: auto;
+    flex-basis: 100%;
+}
+.task-title-wrap
+{
+    flex-shrink: 0;
+    flex-basis: 240px;
+    overflow: hidden;
+    max-height: 100%;
+}
+.task-title
+{
+    margin: 15px 10px;
+    padding: 15px;
+    background-color: rgba( 240, 240, 240, 0.9 );
+    width: 17em;
+    height: max-content;
+    border-radius: 4px;
+}
+.task i
+{
+    float: right;
+    margin-top: 5px;
+}
+b
+{
+    margin-left:10px;
+}
+.dot
+{
+    float: right;
+    margin-right: 10px;
+}
+.task
+    {
+        background-color: white;
+        width: 95%;
+        padding: 8px;
+        margin: 10px 30px 10px 5px;
+        font-size:medium;
+        border-radius: 4px;
+    }
+textarea
+{
+    margin-left: 5px;
+    width: 95%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    resize: none;
+}
+
+button
+{
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: olive;
+    margin: 10px;
+    color: white;
+    font-size: 1.2em;
+}
+button:hover
+{
+    opacity: 0.75;
+    cursor: pointer;
+}
+.card i 
+{
+    font-size: 2em;
+}  
+.card i:hover 
+{
+    opacity: 0.75;
+    cursor: pointer;
+}
+.task:hover
+{
+    opacity: 0.75;
+    cursor: pointer;
+}
+.task i
+{
+    visibility: hidden;
+}
+.task:hover i
+{
+    visibility: visible;
+}
+.other-task:hover
+{
+    opacity: 0.75;
+    cursor: pointer;
+}
+        
